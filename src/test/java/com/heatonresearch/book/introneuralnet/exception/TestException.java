@@ -5,10 +5,9 @@ import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkErro
 import junit.framework.TestCase;
 
 public class TestException extends TestCase {
-	public void testMatrixError()
-	{
-		NullPointerException npe = new NullPointerException();
-		new MatrixError(npe);
-		new NeuralNetworkError(npe);
-	}
+    public void testMatrixError() {
+        NullPointerException npe = new NullPointerException();
+        new MatrixError(npe);
+        new NeuralNetworkError(npe);
+    }
 }

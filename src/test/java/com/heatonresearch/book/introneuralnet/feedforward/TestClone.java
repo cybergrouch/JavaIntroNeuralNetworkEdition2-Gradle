@@ -5,17 +5,15 @@ import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetw
 import junit.framework.TestCase;
 
 
-
 public class TestClone extends TestCase {
 
-	public void testClone() throws Throwable
-	{
-		FeedforwardNetwork source = XOR.createThreeLayerNet();
-		source.reset();
-		
-		FeedforwardNetwork target = (FeedforwardNetwork)source.clone();
-		
-		TestCase.assertTrue(target.equals(source));
-	}
-	
+    public void testClone() throws Throwable {
+        FeedforwardNetwork source = XOR.createThreeLayerNet();
+        source.reset();
+
+        FeedforwardNetwork target = (FeedforwardNetwork) source.clone();
+
+        TestCase.assertTrue(target.equals(source));
+    }
+
 }
