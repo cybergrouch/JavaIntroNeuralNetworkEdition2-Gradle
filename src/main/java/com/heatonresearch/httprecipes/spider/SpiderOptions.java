@@ -108,7 +108,7 @@ public class SpiderOptions {
     public String startup = STARTUP_CLEAR;
 
     /*
-     * Specifies a class to be used a filter.�
+     * Specifies a class to be used a filter.
      */
     public List<String> filter = new ArrayList<String>();
 
