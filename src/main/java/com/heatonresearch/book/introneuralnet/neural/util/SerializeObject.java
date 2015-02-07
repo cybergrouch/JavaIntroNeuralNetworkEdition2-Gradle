@@ -12,12 +12,7 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.util;
 
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 
 /**
  * SerializeObject: Load or save an object using Java serialization.

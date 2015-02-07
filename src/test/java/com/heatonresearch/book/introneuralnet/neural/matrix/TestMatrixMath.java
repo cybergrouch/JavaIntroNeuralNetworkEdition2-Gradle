@@ -1,10 +1,7 @@
 package com.heatonresearch.book.introneuralnet.neural.matrix;
 
-import junit.framework.TestCase;
-
 import com.heatonresearch.book.introneuralnet.neural.exception.MatrixError;
-import com.heatonresearch.book.introneuralnet.neural.matrix.Matrix;
-import com.heatonresearch.book.introneuralnet.neural.matrix.MatrixMath;
+import junit.framework.TestCase;
 
 public class TestMatrixMath extends TestCase {
 	

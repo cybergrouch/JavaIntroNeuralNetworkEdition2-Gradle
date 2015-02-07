@@ -6,13 +6,13 @@
 
 package com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.game.Board;
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.game.Move;
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.game.TicTacToe;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 
 /**
  * Implementation of <code>Player</code> that allows for a human to play via

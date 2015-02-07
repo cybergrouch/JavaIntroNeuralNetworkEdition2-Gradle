@@ -12,11 +12,11 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13.train;
 
+import com.heatonresearch.book.introneuralnet.ch13.Config;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-
-import com.heatonresearch.book.introneuralnet.ch13.Config;
 
 /**
  * Chapter 13: Bot Programming and Neural Networks

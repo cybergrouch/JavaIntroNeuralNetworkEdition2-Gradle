@@ -1,10 +1,13 @@
 package com.heatonresearch.httprecipes.spider;
 
-import java.io.*;
-import java.net.*;
-import java.util.logging.*;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadException;
 
-import com.heatonresearch.httprecipes.spider.workload.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * The Heaton Research Spider 

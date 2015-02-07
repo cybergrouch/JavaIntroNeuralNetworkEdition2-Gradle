@@ -1,6 +1,8 @@
 package com.heatonresearch.httprecipes.html;
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * The Heaton Research Spider Copyright 2007 by Heaton

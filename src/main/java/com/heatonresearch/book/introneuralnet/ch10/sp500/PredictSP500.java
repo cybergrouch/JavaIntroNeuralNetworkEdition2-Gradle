@@ -12,10 +12,6 @@
  */
 package com.heatonresearch.book.introneuralnet.ch10.sp500;
 
-import java.io.IOException;
-import java.text.NumberFormat;
-import java.util.Date;
-
 import com.heatonresearch.book.introneuralnet.common.ReadCSV;
 import com.heatonresearch.book.introneuralnet.neural.activation.ActivationFunction;
 import com.heatonresearch.book.introneuralnet.neural.activation.ActivationTANH;
@@ -26,6 +22,10 @@ import com.heatonresearch.book.introneuralnet.neural.feedforward.train.anneal.Ne
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.backpropagation.Backpropagation;
 import com.heatonresearch.book.introneuralnet.neural.util.ErrorCalculation;
 import com.heatonresearch.book.introneuralnet.neural.util.SerializeObject;
+
+import java.io.IOException;
+import java.text.NumberFormat;
+import java.util.Date;
 
 /**
  * Chapter 10: Application to the Financial Markets

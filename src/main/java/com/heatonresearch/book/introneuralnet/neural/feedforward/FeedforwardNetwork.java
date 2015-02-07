@@ -12,15 +12,15 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.feedforward;
 
+import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
+import com.heatonresearch.book.introneuralnet.neural.matrix.MatrixCODEC;
+import com.heatonresearch.book.introneuralnet.neural.util.ErrorCalculation;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
-
-import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
-import com.heatonresearch.book.introneuralnet.neural.matrix.MatrixCODEC;
-import com.heatonresearch.book.introneuralnet.neural.util.ErrorCalculation;
 
 /**
  * FeedforwardNeuralNetwork: This class implements a feed forward

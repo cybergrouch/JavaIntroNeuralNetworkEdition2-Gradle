@@ -12,10 +12,10 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.genetic;
 
+import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
+
 import java.util.HashSet;
 import java.util.Set;
-
-import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
 
 /**
  * Chromosome: Implements a chromosome to genetic algorithm.

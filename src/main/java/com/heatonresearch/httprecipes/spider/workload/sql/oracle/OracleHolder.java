@@ -1,6 +1,6 @@
 package com.heatonresearch.httprecipes.spider.workload.sql.oracle;
 
-import com.heatonresearch.httprecipes.spider.workload.sql.*;
+import com.heatonresearch.httprecipes.spider.workload.sql.SQLHolder;
 
 /**
  * The Heaton Research Spider 

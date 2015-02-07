@@ -12,9 +12,9 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.matrix;
 
-import java.io.Serializable;
-
 import com.heatonresearch.book.introneuralnet.neural.exception.MatrixError;
+
+import java.io.Serializable;
 
 /**
  * Matrix: This class implements a mathematical matrix.  Matrix

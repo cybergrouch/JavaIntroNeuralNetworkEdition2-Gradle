@@ -12,13 +12,11 @@
  */
 package com.heatonresearch.book.introneuralnet.ch6.tsp;
 
-import java.awt.BorderLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.text.NumberFormat;
-
-import javax.swing.JFrame;
-import javax.swing.JLabel;
 
 /**
  * Chapter 6: Training using a Genetic Algorithm

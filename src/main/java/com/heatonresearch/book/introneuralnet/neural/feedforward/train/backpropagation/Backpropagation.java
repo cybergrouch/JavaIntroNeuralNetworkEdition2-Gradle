@@ -12,13 +12,13 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.feedforward.train.backpropagation;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardLayer;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.Train;
+
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * Backpropagation: This class implements a backpropagation 

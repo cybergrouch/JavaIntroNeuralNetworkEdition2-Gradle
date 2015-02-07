@@ -1,8 +1,12 @@
 package com.heatonresearch.httprecipes.html;
 
 import java.io.*;
-import java.net.*;
-import java.util.*;
+import java.net.URLConnection;
+import java.net.URLEncoder;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Random;
+import java.util.StringTokenizer;
 
 /**
  * The Heaton Research Spider Copyright 2007 by Heaton

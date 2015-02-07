@@ -2,7 +2,6 @@ package com.heatonresearch.book.introneuralnet.hopfield;
 
 import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
 import com.heatonresearch.book.introneuralnet.neural.hopfield.HopfieldNetwork;
-
 import junit.framework.TestCase;
 
 public class TestHopfield extends TestCase {

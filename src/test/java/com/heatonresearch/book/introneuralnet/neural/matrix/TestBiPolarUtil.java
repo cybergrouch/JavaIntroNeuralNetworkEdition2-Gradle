@@ -1,8 +1,5 @@
 package com.heatonresearch.book.introneuralnet.neural.matrix;
 
-import com.heatonresearch.book.introneuralnet.neural.matrix.BiPolarUtil;
-import com.heatonresearch.book.introneuralnet.neural.matrix.Matrix;
-
 import junit.framework.TestCase;
 
 public class TestBiPolarUtil extends TestCase {

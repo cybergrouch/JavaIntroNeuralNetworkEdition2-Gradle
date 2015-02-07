@@ -2,8 +2,6 @@ package com.heatonresearch.book.introneuralnet.feedforward;
 
 import com.heatonresearch.book.introneuralnet.XOR;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
-
-
 import junit.framework.TestCase;
 
 

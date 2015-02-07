@@ -4,7 +4,6 @@ package com.heatonresearch.book.introneuralnet.feedforward;
 import com.heatonresearch.book.introneuralnet.XOR;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.genetic.TrainingSetNeuralGeneticAlgorithm;
-
 import junit.framework.TestCase;
 
 public class TestGenetic extends TestCase {

@@ -1,13 +1,22 @@
 package com.heatonresearch.httprecipes.spider.workload.sql;
 
-import java.net.*;
-import java.sql.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.logging.*;
+import com.heatonresearch.httprecipes.spider.Spider;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadException;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadManager;
 
-import com.heatonresearch.httprecipes.spider.*;
-import com.heatonresearch.httprecipes.spider.workload.*;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.Semaphore;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * The Heaton Research Spider 

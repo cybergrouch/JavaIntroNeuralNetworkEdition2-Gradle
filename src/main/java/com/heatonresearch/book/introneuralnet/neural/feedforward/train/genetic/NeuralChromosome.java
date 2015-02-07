@@ -12,13 +12,13 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.feedforward.train.genetic;
 
-import java.util.Arrays;
-
 import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
 import com.heatonresearch.book.introneuralnet.neural.genetic.Chromosome;
 import com.heatonresearch.book.introneuralnet.neural.genetic.GeneticAlgorithm;
 import com.heatonresearch.book.introneuralnet.neural.matrix.MatrixCODEC;
+
+import java.util.Arrays;
 
 /**
  * NeuralChromosome: Implements a chromosome that allows a 

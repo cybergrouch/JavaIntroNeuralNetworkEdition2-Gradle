@@ -12,13 +12,13 @@
  */
 package com.heatonresearch.book.introneuralnet.ch10.sp500;
 
+import com.heatonresearch.book.introneuralnet.common.ReadCSV;
+
 import java.io.IOException;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.Set;
 import java.util.TreeSet;
-
-import com.heatonresearch.book.introneuralnet.common.ReadCSV;
 
 /**
  * Chapter 10: Application to the Financial Markets

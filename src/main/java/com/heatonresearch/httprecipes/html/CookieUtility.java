@@ -1,7 +1,10 @@
 package com.heatonresearch.httprecipes.html;
 
-import java.net.*;
-import java.util.*;
+import java.net.URLConnection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.StringTokenizer;
 
 /**
  * The Heaton Research Spider Copyright 2007 by Heaton

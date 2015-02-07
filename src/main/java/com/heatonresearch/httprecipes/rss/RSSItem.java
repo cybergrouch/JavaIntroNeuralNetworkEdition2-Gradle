@@ -1,8 +1,9 @@
 package com.heatonresearch.httprecipes.rss;
 
-import java.util.*;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
 
-import org.w3c.dom.*;
+import java.util.Date;
 
 /**
  * The Heaton Research Spider 

@@ -12,23 +12,14 @@
  */
 package com.heatonresearch.book.introneuralnet.ch12.ocr;
 
-import java.awt.Font;
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.FileReader;
-import java.io.OutputStream;
-import java.io.PrintStream;
-
-import javax.swing.DefaultListModel;
-import javax.swing.JFrame;
-import javax.swing.JOptionPane;
-import javax.swing.SwingUtilities;
-
+import com.heatonresearch.book.introneuralnet.neural.som.NormalizeInput.NormalizationType;
 import com.heatonresearch.book.introneuralnet.neural.som.SelfOrganizingMap;
 import com.heatonresearch.book.introneuralnet.neural.som.TrainSelfOrganizingMap;
-import com.heatonresearch.book.introneuralnet.neural.som.NormalizeInput.NormalizationType;
 import com.heatonresearch.book.introneuralnet.neural.som.TrainSelfOrganizingMap.LearningMethod;
+
+import javax.swing.*;
+import java.awt.*;
+import java.io.*;
 
 /**
  * Chapter 12: OCR and the Self Organizing Map

@@ -1,9 +1,11 @@
 package com.heatonresearch.httprecipes.spider.logging;
 
-import java.io.*;
-import java.util.*;
-import java.util.logging.*;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.util.Date;
 import java.util.logging.Formatter;
+import java.util.logging.LogRecord;
 
 /**
  * The Heaton Research Spider 

@@ -1,11 +1,15 @@
 package com.heatonresearch.httprecipes.spider;
 
-import java.io.*;
-import java.net.*;
-import java.util.logging.*;
+import com.heatonresearch.httprecipes.html.HTMLTag;
+import com.heatonresearch.httprecipes.html.ParseHTML;
+import com.heatonresearch.httprecipes.html.URLUtility;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadException;
 
-import com.heatonresearch.httprecipes.html.*;
-import com.heatonresearch.httprecipes.spider.workload.*;
+import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * The Heaton Research Spider 

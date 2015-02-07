@@ -12,11 +12,11 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.prune;
 
-import java.util.Collection;
-
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardLayer;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.backpropagation.Backpropagation;
+
+import java.util.Collection;
 
 /**
  * Prune: The prune class provides some basic help for determining

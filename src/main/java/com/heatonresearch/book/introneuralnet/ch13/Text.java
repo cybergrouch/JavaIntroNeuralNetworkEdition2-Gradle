@@ -12,13 +12,13 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13;
 
+import com.heatonresearch.httprecipes.html.ParseHTML;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.net.URLConnection;
 import java.util.StringTokenizer;
-
-import com.heatonresearch.httprecipes.html.ParseHTML;
 
 /**
  * Chapter 13: Bot Programming and Neural Networks

@@ -1,8 +1,10 @@
 package com.heatonresearch.httprecipes.spider.workload.sql.oracle;
 
-import java.sql.*;
+import com.heatonresearch.httprecipes.spider.workload.sql.SQLHolder;
+import com.heatonresearch.httprecipes.spider.workload.sql.SQLWorkloadManager;
 
-import com.heatonresearch.httprecipes.spider.workload.sql.*;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 
 /**
  * The Heaton Research Spider 

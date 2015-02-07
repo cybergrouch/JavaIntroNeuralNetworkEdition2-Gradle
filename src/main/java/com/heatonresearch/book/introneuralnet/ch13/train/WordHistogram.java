@@ -12,20 +12,11 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13.train;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.Serializable;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.StringTokenizer;
-import java.util.TreeSet;
-
 import com.heatonresearch.book.introneuralnet.ch13.CommonWords;
 import com.heatonresearch.book.introneuralnet.ch13.Config;
+
+import java.io.*;
+import java.util.*;
 
 
 /**

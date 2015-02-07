@@ -12,14 +12,10 @@
  */
 package com.heatonresearch.book.introneuralnet.ch12.ocr;
 
-import java.awt.AWTEvent;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.MouseEvent;
 import java.awt.image.PixelGrabber;
-
-import javax.swing.JPanel;
 
 /**
  * Chapter 12: OCR and the Self Organizing Map

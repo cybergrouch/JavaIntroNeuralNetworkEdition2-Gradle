@@ -12,14 +12,14 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.genetic;
 
+import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.TimeUnit;
-
-import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
 
 /**
  * GeneticAlgorithm: Implements a genetic algorithm.

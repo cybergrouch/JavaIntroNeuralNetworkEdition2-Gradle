@@ -1,6 +1,7 @@
 package com.heatonresearch.httprecipes.html;
 
-import java.io.*;
+import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * The Heaton Research Spider Copyright 2007 by Heaton

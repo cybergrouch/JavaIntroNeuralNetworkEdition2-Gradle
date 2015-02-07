@@ -12,13 +12,6 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13.born;
 
-import java.io.IOException;
-import java.net.URL;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-
 import com.heatonresearch.book.introneuralnet.ch13.Config;
 import com.heatonresearch.book.introneuralnet.ch13.ScanReportable;
 import com.heatonresearch.book.introneuralnet.ch13.Text;
@@ -26,6 +19,13 @@ import com.heatonresearch.book.introneuralnet.ch13.train.WordHistogram;
 import com.heatonresearch.book.introneuralnet.common.YahooSearch;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
 import com.heatonresearch.book.introneuralnet.neural.util.SerializeObject;
+
+import java.io.IOException;
+import java.net.URL;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
 
 /**
  * Bot example.

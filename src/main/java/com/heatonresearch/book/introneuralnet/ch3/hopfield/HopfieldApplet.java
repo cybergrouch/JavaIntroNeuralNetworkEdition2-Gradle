@@ -12,11 +12,11 @@
  */
 package com.heatonresearch.book.introneuralnet.ch3.hopfield;
 
-import java.applet.Applet;
-import java.awt.Color;
-import java.awt.event.FocusEvent;
-
 import com.heatonresearch.book.introneuralnet.neural.hopfield.HopfieldNetwork;
+
+import java.applet.Applet;
+import java.awt.*;
+import java.awt.event.FocusEvent;
 
 /**
  * Chapter 3: Using a Hopfield Neural Network

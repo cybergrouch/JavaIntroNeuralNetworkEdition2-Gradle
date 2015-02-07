@@ -12,21 +12,15 @@
  */
 package com.heatonresearch.book.introneuralnet.ch11.som;
 
-import java.awt.Color;
-import java.awt.Dimension;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.awt.Toolkit;
-import java.text.NumberFormat;
-
-import javax.swing.JFrame;
-import javax.swing.WindowConstants;
-
 import com.heatonresearch.book.introneuralnet.neural.matrix.Matrix;
+import com.heatonresearch.book.introneuralnet.neural.som.NormalizeInput.NormalizationType;
 import com.heatonresearch.book.introneuralnet.neural.som.SelfOrganizingMap;
 import com.heatonresearch.book.introneuralnet.neural.som.TrainSelfOrganizingMap;
-import com.heatonresearch.book.introneuralnet.neural.som.NormalizeInput.NormalizationType;
 import com.heatonresearch.book.introneuralnet.neural.som.TrainSelfOrganizingMap.LearningMethod;
+
+import javax.swing.*;
+import java.awt.*;
+import java.text.NumberFormat;
 
 /** 
  * Chapter 11: Using a Self Organizing Map

@@ -1,9 +1,9 @@
 package com.heatonresearch.httprecipes.spider.workload;
 
-import java.net.*;
-import java.util.concurrent.*;
+import com.heatonresearch.httprecipes.spider.Spider;
 
-import com.heatonresearch.httprecipes.spider.*;
+import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 /**
  * The Heaton Research Spider 

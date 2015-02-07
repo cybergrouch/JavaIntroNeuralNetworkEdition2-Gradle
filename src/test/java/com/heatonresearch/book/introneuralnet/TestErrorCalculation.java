@@ -1,7 +1,6 @@
 package com.heatonresearch.book.introneuralnet;
 
-import com.heatonresearch.book.introneuralnet.neural.util.*;
-
+import com.heatonresearch.book.introneuralnet.neural.util.ErrorCalculation;
 import junit.framework.TestCase;
 
 public class TestErrorCalculation extends TestCase {

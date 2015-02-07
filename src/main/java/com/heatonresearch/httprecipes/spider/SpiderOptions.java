@@ -1,8 +1,12 @@
 package com.heatonresearch.httprecipes.spider;
 
-import java.io.*;
-import java.lang.reflect.*;
-import java.util.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * The Heaton Research Spider 
@@ -104,7 +108,7 @@ public class SpiderOptions {
   public String startup = STARTUP_CLEAR;
 
   /*
-   * Specifies a class to be used a filter.§
+   * Specifies a class to be used a filter.ï¿½
    */
   public List<String> filter = new ArrayList<String>();
 

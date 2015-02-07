@@ -12,8 +12,6 @@
  */
 package com.heatonresearch.book.introneuralnet.ch9.predict;
 
-import java.text.NumberFormat;
-
 import com.heatonresearch.book.introneuralnet.neural.activation.ActivationFunction;
 import com.heatonresearch.book.introneuralnet.neural.activation.ActivationTANH;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardLayer;
@@ -22,6 +20,8 @@ import com.heatonresearch.book.introneuralnet.neural.feedforward.train.Train;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.anneal.NeuralSimulatedAnnealing;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.backpropagation.Backpropagation;
 import com.heatonresearch.book.introneuralnet.neural.util.ErrorCalculation;
+
+import java.text.NumberFormat;
 
 /**
  * Chapter 9: Predictive Neural Networks

@@ -1,13 +1,20 @@
 package com.heatonresearch.httprecipes.spider;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import java.util.concurrent.*;
-import java.util.logging.*;
+import com.heatonresearch.httprecipes.spider.filter.SpiderFilter;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadException;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadManager;
 
-import com.heatonresearch.httprecipes.spider.filter.*;
-import com.heatonresearch.httprecipes.spider.workload.*;
+import java.io.IOException;
+import java.net.URL;
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.SynchronousQueue;
+import java.util.concurrent.ThreadPoolExecutor;
+import java.util.concurrent.TimeUnit;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * The Heaton Research Spider 

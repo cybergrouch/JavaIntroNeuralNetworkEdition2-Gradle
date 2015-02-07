@@ -1,11 +1,16 @@
 package com.heatonresearch.httprecipes.spider.workload.memory;
 
-import java.net.*;
-import java.util.*;
-import java.util.concurrent.*;
+import com.heatonresearch.httprecipes.spider.Spider;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadException;
+import com.heatonresearch.httprecipes.spider.workload.WorkloadManager;
 
-import com.heatonresearch.httprecipes.spider.*;
-import com.heatonresearch.httprecipes.spider.workload.*;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.TimeUnit;
 
 /**
  * The Heaton Research Spider 

@@ -12,10 +12,10 @@
  */
 package com.heatonresearch.book.introneuralnet.ch10.sp500;
 
+import com.heatonresearch.book.introneuralnet.common.ReadCSV;
+
 import java.text.NumberFormat;
 import java.util.Date;
-
-import com.heatonresearch.book.introneuralnet.common.ReadCSV;
 
 /**
  * Chapter 10: Application to the Financial Markets

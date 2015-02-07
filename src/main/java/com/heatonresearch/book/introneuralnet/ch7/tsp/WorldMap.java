@@ -12,10 +12,8 @@
  */
 package com.heatonresearch.book.introneuralnet.ch7.tsp;
 
-import java.awt.Color;
-import java.awt.Graphics;
-
-import javax.swing.JPanel;
+import javax.swing.*;
+import java.awt.*;
 
 /**
  * Chapter 7:Training using Simulated Annealing

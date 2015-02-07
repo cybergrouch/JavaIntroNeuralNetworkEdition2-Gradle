@@ -12,23 +12,19 @@
  */
 package com.heatonresearch.book.introneuralnet.ch6.TicTacToe;
 
-import java.io.IOException;
-import java.util.Date;
-import java.util.concurrent.Executors;
-
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.game.Game;
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.game.ScorePlayer;
-import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.Player;
-import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.PlayerBoring;
-import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.PlayerHuman;
-import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.PlayerLogic;
-import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.PlayerRandom;
+import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.*;
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.minmax.PlayerMinMax;
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.neural.PlayerNeural;
 import com.heatonresearch.book.introneuralnet.ch6.TicTacToe.players.neural.TicTacToeGenetic;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardLayer;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
 import com.heatonresearch.book.introneuralnet.neural.util.SerializeObject;
+
+import java.io.IOException;
+import java.util.Date;
+import java.util.concurrent.Executors;
 
 /**
  * Chapter 6: Training using a Genetic Algorithm

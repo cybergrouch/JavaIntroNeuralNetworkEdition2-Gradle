@@ -12,8 +12,10 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13;
 
-import java.io.*;
-import java.net.*;
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.MalformedURLException;
+import java.net.URL;
 
 public class SimpleBot
 {

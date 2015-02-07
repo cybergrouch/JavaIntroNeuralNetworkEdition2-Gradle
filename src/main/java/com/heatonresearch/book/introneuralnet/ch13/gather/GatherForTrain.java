@@ -12,6 +12,10 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13.gather;
 
+import com.heatonresearch.book.introneuralnet.ch13.Config;
+import com.heatonresearch.book.introneuralnet.ch13.ScanReportable;
+import com.heatonresearch.book.introneuralnet.common.ReadCSV;
+
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
@@ -23,10 +27,6 @@ import java.util.Vector;
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-
-import com.heatonresearch.book.introneuralnet.ch13.Config;
-import com.heatonresearch.book.introneuralnet.ch13.ScanReportable;
-import com.heatonresearch.book.introneuralnet.common.ReadCSV;
 
 /**
  * Chapter 13: Bot Programming and Neural Networks

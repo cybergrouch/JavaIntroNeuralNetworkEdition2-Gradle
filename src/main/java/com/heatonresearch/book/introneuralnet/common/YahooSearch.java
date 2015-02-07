@@ -12,16 +12,16 @@
  */
 package com.heatonresearch.book.introneuralnet.common;
 
+import com.heatonresearch.httprecipes.html.FormUtility;
+import com.heatonresearch.httprecipes.html.HTMLTag;
+import com.heatonresearch.httprecipes.html.ParseHTML;
+
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.Collection;
-
-import com.heatonresearch.httprecipes.html.FormUtility;
-import com.heatonresearch.httprecipes.html.HTMLTag;
-import com.heatonresearch.httprecipes.html.ParseHTML;
 
 /**
  * YahooSearch: Perform a search using Yahoo.

@@ -1,9 +1,8 @@
 package com.heatonresearch.book.introneuralnet.exception;
 
-import junit.framework.TestCase;
-
 import com.heatonresearch.book.introneuralnet.neural.exception.MatrixError;
 import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
+import junit.framework.TestCase;
 
 public class TestException extends TestCase {
 	public void testMatrixError()

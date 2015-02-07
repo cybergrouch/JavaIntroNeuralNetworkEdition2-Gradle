@@ -12,13 +12,13 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13.gather;
 
+import com.heatonresearch.book.introneuralnet.ch13.Text;
+import com.heatonresearch.book.introneuralnet.common.YahooSearch;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.Collection;
 import java.util.concurrent.Callable;
-
-import com.heatonresearch.book.introneuralnet.ch13.Text;
-import com.heatonresearch.book.introneuralnet.common.YahooSearch;
 
 /**
  * Chapter 13: Bot Programming and Neural Networks

@@ -12,13 +12,13 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.feedforward;
 
-import java.io.Serializable;
-
 import com.heatonresearch.book.introneuralnet.neural.activation.ActivationFunction;
 import com.heatonresearch.book.introneuralnet.neural.activation.ActivationSigmoid;
 import com.heatonresearch.book.introneuralnet.neural.exception.NeuralNetworkError;
 import com.heatonresearch.book.introneuralnet.neural.matrix.Matrix;
 import com.heatonresearch.book.introneuralnet.neural.matrix.MatrixMath;
+
+import java.io.Serializable;
 
 /**
  * FeedforwardLayer: This class represents one layer in a 

@@ -12,11 +12,11 @@
  */
 package com.heatonresearch.book.introneuralnet.neural.som;
 
-import java.io.Serializable;
-
 import com.heatonresearch.book.introneuralnet.neural.matrix.Matrix;
 import com.heatonresearch.book.introneuralnet.neural.matrix.MatrixMath;
 import com.heatonresearch.book.introneuralnet.neural.som.NormalizeInput.NormalizationType;
+
+import java.io.Serializable;
 
 /**
  * SelfOrganizingMap: The Self Organizing Map, or Kohonen Neural Network, is a

@@ -12,8 +12,6 @@
  */
 package com.heatonresearch.book.introneuralnet.ch13.train;
 
-import java.io.IOException;
-
 import com.heatonresearch.book.introneuralnet.ch13.CommonWords;
 import com.heatonresearch.book.introneuralnet.ch13.Config;
 import com.heatonresearch.book.introneuralnet.ch13.NetworkUtil;
@@ -21,6 +19,8 @@ import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetw
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.Train;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.backpropagation.Backpropagation;
 import com.heatonresearch.book.introneuralnet.neural.util.SerializeObject;
+
+import java.io.IOException;
 
 
 /**

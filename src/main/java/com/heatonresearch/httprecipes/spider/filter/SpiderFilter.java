@@ -1,7 +1,7 @@
 package com.heatonresearch.httprecipes.spider.filter;
 
-import java.io.*;
-import java.net.*;
+import java.io.IOException;
+import java.net.URL;
 
 /**
  * The Heaton Research Spider 

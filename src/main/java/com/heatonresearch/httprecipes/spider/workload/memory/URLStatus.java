@@ -1,6 +1,6 @@
 package com.heatonresearch.httprecipes.spider.workload.memory;
 
-import java.net.*;
+import java.net.URL;
 
 /**
  * The Heaton Research Spider 

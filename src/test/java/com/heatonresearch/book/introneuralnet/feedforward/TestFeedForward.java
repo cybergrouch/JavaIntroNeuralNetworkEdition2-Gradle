@@ -1,15 +1,13 @@
 package com.heatonresearch.book.introneuralnet.feedforward;
 
-import java.util.Iterator;
-
 import com.heatonresearch.book.introneuralnet.XOR;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardLayer;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.FeedforwardNetwork;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.Train;
 import com.heatonresearch.book.introneuralnet.neural.feedforward.train.backpropagation.Backpropagation;
-
-
 import junit.framework.TestCase;
+
+import java.util.Iterator;
 
 public class TestFeedForward extends TestCase {
 	private FeedforwardNetwork createNetwork() 
